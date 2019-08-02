@@ -272,6 +272,38 @@ function getErrMsg($key){
    return $stmt->fetch(PDO::FETCH_ASSOC);
  }
 
+ function getTenpo($t_id){
+   debug('ユーザー情報を取得します');
+   //例外処理
+   try{
+     //DBへ接続
+     $dbh = dbConnect();
+     $sql = 'SELECT * FROM tenpo WHERE id = :t_id AND delete_flg = 0';
+     $data = array(':t_id' => $t_id);
+     //クエリ実行
+     $stmt = queryPost($dbh, $sql, $data);
+
+     //クエリ成功の場合
+    // if($stmt){
+    //   debug('クエリ成功しました！');
+    // }else{
+    //   debug('クエリ失敗。。。');
+     //}
+
+     //クエリ結果のデータを１レコード返却
+     if($stmt){
+       return $stmt->fetch(PDO::FETCH_ASSOC);
+     }else{
+       return false;
+     }
+
+   }catch(Exception $e){
+     error_log('エラー発生：' .$e->getMessage());
+   }
+   //クエリ結果のデータを返却
+   return $stmt->fetch(PDO::FETCH_ASSOC);
+ }
+
  function getAnken($u_id,$a_id){
    debug('案件情報を取得します');
    debuf('ユーザーID：'.$u_id);
@@ -297,6 +329,7 @@ function getErrMsg($key){
      error_log('エラー発生：'. $e->getMessage());
    }
  }
+
  function getCategory(){
   debug('カテゴリー情報を取得します。');
   //例外処理

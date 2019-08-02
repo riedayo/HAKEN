@@ -7948,3 +7948,1416 @@ Stack trace:
 [28-Jul-2019 19:26:03 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1566901562
 [28-Jul-2019 19:26:03 Asia/Tokyo] デバッグ：ログイン済みユーザーです
 [28-Jul-2019 19:26:03 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「　ログインページ　「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：セッションID：vq1f275qheh2k53lhv4hr1mjpg
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => 
+    [login_date] => 1564309563
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461326
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1566901563
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：マイページへ遷移します
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：セッションID：q7mcellqp8k2rhqfa6iv5kt8ko
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => 
+    [login_date] => 1564461326
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461326
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567053326
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[30-Jul-2019 13:35:26 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「　ログアウトページ　「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：セッションID：rr1pa7n4b7es3p9hbhpgb3auq7
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => 
+    [login_date] => 1564461326
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461439
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567053326
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：ログアウトします
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：ログインページへ遷移します
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「　ログインページ　「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：セッションID：caqlci98pdke0tremmdkj9b8ir
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461439
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：未ログインユーザーです
+[30-Jul-2019 13:37:19 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：「　登録画面　「
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：セッションID：2hvcjlt2jto019n731fl0pn2r9
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461452
+[30-Jul-2019 13:37:32 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：「　登録画面　「
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：セッションID：tdhasolbsp2dbg09rqje1009pf
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461564
+[30-Jul-2019 13:39:24 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：「　登録画面　「
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：セッションID：iq68iju4kev0ifl3fa9enbljep
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：現在日時スタンプ：1564461602
+[30-Jul-2019 13:40:02 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:18:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：セッションID：mgf564ckuntcdnttrcl116h40q
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：現在日時スタンプ：1564550299
+[31-Jul-2019 14:18:19 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：セッションID：cf99bf40omtos9ipkq0uu13pgi
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：現在日時スタンプ：1564550522
+[31-Jul-2019 14:22:02 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：セッションID：kdkfepfr4m4i37l23q2gq11ke9
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：現在日時スタンプ：1564550550
+[31-Jul-2019 14:22:30 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:27:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：セッションID：j7ic9nrauose8p1aq7i3uid27d
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：現在日時スタンプ：1564550831
+[31-Jul-2019 14:27:11 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：セッションID：a22puj57khigierdh8n51lvirf
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551042
+[31-Jul-2019 14:30:42 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：セッションID：dshm35hd0dmqe05l6jhevec2u0
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551108
+[31-Jul-2019 14:31:48 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：セッションID：4hk7hvs4nkbg1lg83t19oslt2k
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551218
+[31-Jul-2019 14:33:38 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：セッションID：oj8aa9btgk70i3a7iv60gd6ld4
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551338
+[31-Jul-2019 14:35:38 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：セッションID：5bj3ukmlitkr0d2ouj44mg76m1
+[31-Jul-2019 14:36:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:36:24 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551384
+[31-Jul-2019 14:36:24 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：セッションID：f676ojc2dvlq36209o047pe3hu
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551447
+[31-Jul-2019 14:37:27 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：セッションID：sq5r73cc6648o0h0uu9tehvajm
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551473
+[31-Jul-2019 14:37:53 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：セッションID：iufa6rcb79an0lle90117e882c
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551487
+[31-Jul-2019 14:38:07 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：セッションID：i741obclh10edpl3g4uchmfomf
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551508
+[31-Jul-2019 14:38:28 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：セッションID：i102ojrjsjpdp61pjb3sjf20ar
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551683
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:41:23 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 34
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：validEmailDupの中身：hatanorie@gmail.com
+[31-Jul-2019 14:41:23 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：セッションID：kaau9c5erlcbmj46khb0han6cq
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：現在日時スタンプ：1564551897
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:44:57 Asia/Tokyo] PHP Notice:  Undefined index: pref in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 23
+[31-Jul-2019 14:44:57 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 14:44:57 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 14:44:57 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:44:57 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:44:58 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:44:58 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:44:58 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：セッションID：o4uo4bbkmn7rifacirgrvdn9ge
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552269
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:51:09 Asia/Tokyo] PHP Notice:  Undefined index: pref in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 23
+[31-Jul-2019 14:51:09 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 14:51:09 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 14:51:09 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:51:09 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:51:10 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:51:10 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:51:10 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：セッションID：pa0t99u2nbtj9a575mmb17j9bm
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552653
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:57:33 Asia/Tokyo] PHP Notice:  Undefined index: pref in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 23
+[31-Jul-2019 14:57:33 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 14:57:33 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 14:57:33 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:57:33 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:57:34 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:57:34 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:57:34 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：セッションID：rrv8mgahp93pj4j0t60885o7e7
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552717
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:58:37 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：validEmailDupの中身：hatanorie@gmail.com
+[31-Jul-2019 14:58:37 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：セッションID：670v90mdu4rksksr7oqbiljakm
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552754
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:59:14 Asia/Tokyo] PHP Notice:  Undefined index: pref in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 23
+[31-Jul-2019 14:59:14 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 14:59:14 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 14:59:14 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:59:14 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:59:14 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：セッションID：c5fr5ku16c74fdm6h2455llm3s
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552770
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:59:30 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 14:59:30 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 14:59:30 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:59:30 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:59:30 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：セッションID：n84ftvd654jds1tufa9rpks2gq
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：現在日時スタンプ：1564552792
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 14:59:52 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 14:59:52 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 102
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 14:59:52 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：セッションID：r78vu85duefrqlprbdbhkf58sa
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：現在日時スタンプ：1564563341
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 17:55:41 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 17:55:41 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 17:55:42 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 103
+[31-Jul-2019 17:55:42 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 17:55:42 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：セッションID：vlsn9ck799b5j7o568r3om2gfo
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：現在日時スタンプ：1564563549
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 17:59:09 Asia/Tokyo] PHP Notice:  Undefined index: pref in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 23
+[31-Jul-2019 17:59:09 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 26
+[31-Jul-2019 17:59:09 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 17:59:09 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 17:59:09 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 103
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 17:59:09 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：セッションID：qlp8raa6pt6lcfituduuk8lg0f
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：現在日時スタンプ：1564563573
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 17:59:33 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 17:59:33 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 103
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 17:59:33 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：セッションID：kfvsgco8om8uj1ujiofl56ef0r
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：現在日時スタンプ：1564564054
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 18:07:34 Asia/Tokyo] PHP Notice:  Undefined index: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 32
+[31-Jul-2019 18:07:34 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 35
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 18:07:34 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 18:07:35 Asia/Tokyo] PHP Notice:  Undefined variable: catrgory in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 103
+[31-Jul-2019 18:07:35 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 18:07:35 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：「　ログインページ　「
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：セッションID：qc4ujl2ti20u96u44ivfdhrq2q
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：現在日時スタンプ：1564564700
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：未ログインユーザーです
+[31-Jul-2019 18:18:20 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「　ログインページ　「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：セッションID：jt0bhqrmifeugghhs6icng14o1
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：現在日時スタンプ：1564564709
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：未ログインユーザーです
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [id] => 5
+)
+
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：$pass_saveの中身：1
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：ログインしたままにする、にチェックがあります
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：マイページへ遷移します
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：セッションID：m0s71mvtksv32q3073gnus2enf
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：現在日時スタンプ：1564564709
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[31-Jul-2019 18:18:29 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：セッションID：0ldb53lrudtmmfo1p2cn7isfvv
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：現在日時スタンプ：1564578625
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 22:10:25 Asia/Tokyo] PHP Notice:  Undefined index: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 37
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 22:10:25 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：セッションID：sk7ngfhujo5gk8jnov61mjvcim
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：現在日時スタンプ：1564578710
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 22:11:50 Asia/Tokyo] PHP Notice:  Undefined variable: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 63
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 22:11:50 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 22:11:51 Asia/Tokyo] PHP Notice:  Undefined variable: shorui in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 107
+[31-Jul-2019 22:11:51 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 22:11:51 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：セッションID：5vog2kb3jss20l691q6hssfr10
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：現在日時スタンプ：1564578878
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 22:14:38 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 22:14:39 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 22:14:39 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：セッションID：fp7c5nuphg061v3ggthl6ognhq
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：現在日時スタンプ：1564578902
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：POST送信があります。
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：クエリ成功！
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：validEmailDupの中身：dhione@gmail.com
+[31-Jul-2019 22:15:02 Asia/Tokyo] デバッグ：バリデーションおk
+[31-Jul-2019 22:15:03 Asia/Tokyo] デバッグ：クエリに失敗しました
+[31-Jul-2019 22:15:03 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：セッションID：brjb9nmoasg5v1gg4k2huk03ce
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564564709
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：現在日時スタンプ：1564636236
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567156709
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 14:10:36 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：セッションID：c88r1ahbi6ckfqipkrd05n0e6g
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636236
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：現在日時スタンプ：1564636298
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228236
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：ユーザー情報を取得します
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:11:38 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 5
+    [email] => hatanorie@gmail.com
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [username] => 波多野莉恵
+    [year] => 1990
+    [tel] => 09090073716
+    [pref] => 神奈川県
+    [addr] => 横浜市旭区鶴ケ峰, 1-40-5
+    [station] => 鶴ヶ峰駅
+    [pic] => 
+    [login_time] => 2019-07-02 00:00:25
+    [delete_flg] => 0
+    [create_date] => 2019-07-02 00:00:25
+    [update_date] => 2019-07-22 16:49:06
+)
+
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：セッションID：i9fdv44s2ff337n86dng6vsp52
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636298
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：現在日時スタンプ：1564636301
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228298
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 14:11:41 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：セッションID：miisqptumpmqgl9gddvr05ivn8
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636301
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：現在日時スタンプ：1564636495
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228301
+[01-Aug-2019 14:14:55 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：セッションID：oohrcllmnvsufceg2opm6p1kqi
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636301
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：現在日時スタンプ：1564636906
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228301
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：validEmailDupの中身：test@gmail.com
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：クエリに失敗しました
+[01-Aug-2019 14:21:46 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：「　登録画面　「
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：セッションID：10v5koauua731o547rbriekg85
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636301
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：現在日時スタンプ：1564637143
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228301
+[01-Aug-2019 14:25:43 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：「　登録画面　「
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：セッションID：iga7orruh8fs0rtr7l44pl6lpp
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564636301
+    [login_limit] => 2592000
+    [user_id] => 5
+)
+
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：現在日時スタンプ：1564637218
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1567228301
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：validEmailDupの中身：yamadagorou@gmail.com
+[01-Aug-2019 14:26:58 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564637219
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：マイページへ遷移します
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：セッションID：poenvi59i6okfr3kkje78u68je
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564637219
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：現在日時スタンプ：1564637219
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564640819
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 14:26:59 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：セッションID：secrngmgre873h3iji8iigdb7m
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564637219
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：現在日時スタンプ：1564637222
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564640819
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 14:27:02 Asia/Tokyo] デバッグ：ユーザー情報を取得します
+[01-Aug-2019 14:27:03 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:27:03 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 6
+    [email] => yamadagorou@gmail.com
+    [pass] => $2y$10$TVTsILHWq9YLSG80fB4zLul8xoe6ixafKLnDHVxkyTWDpIKins.1e
+    [username] => 山田智子
+    [year] => 1993
+    [tel] => 09088888888
+    [pref] => 青森県
+    [addr] => 適当し適当
+    [station] => 青森駅
+    [pic] => 
+    [login_time] => 2019-08-01 14:26:59
+    [delete_flg] => 0
+    [create_date] => 2019-08-01 14:26:59
+    [update_date] => 2019-08-01 14:26:59
+)
+
+[01-Aug-2019 14:27:03 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：セッションID：nea9moaan79tjhjhl3gg3sv4d4
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564637222
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：現在日時スタンプ：1564637631
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564640822
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：validEmailDupの中身：cool@gmail.com
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：クエリに失敗しました
+[01-Aug-2019 14:33:51 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：セッションID：nm339u4ejdt192920rd7h37nag
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564637222
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：現在日時スタンプ：1564642494
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564640822
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 15:54:54 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：セッションID：rh30dikm3rpoma89jg8dbg641o
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：現在日時スタンプ：1564642495
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 15:54:55 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：セッションID：4kfas89er2tpgsi9hbibsbb5bo
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：現在日時スタンプ：1564642504
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 15:55:04 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [id] => 5
+)
+
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：ログインしたままにする、にチェックがありません
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564642505
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：マイページへ遷移します
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：セッションID：tj8cep4r1n7p3esmhu9afgqsh5
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564642505
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：現在日時スタンプ：1564642505
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564646105
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 15:55:05 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：セッションID：hades3povq906fpp0dtefk7jvh
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564642505
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647688
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564646105
+[01-Aug-2019 17:21:28 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：セッションID：5sd7g81qc3tlsfder2u7nnen94
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564642505
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647733
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564646105
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：セッションID：g856kbljd7gii777gldmt2ckv4
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647733
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 17:22:13 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：セッションID：h55pai91uelrfho62bv90bo7g6
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647749
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 17:22:29 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [id] => 5
+)
+
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：ログインしたままにする、にチェックがありません
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647751
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：マイページへ遷移します
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：セッションID：epca50daklkh8ds3klinigsq5v
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647751
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647751
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651351
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:22:31 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：セッションID：58ddj6q0dbbiavlq5p123uh6pa
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647751
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647787
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651351
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:23:07 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：セッションID：5kt81bfblab68pnlou3tp9e6bn
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647787
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647798
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651387
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：ユーザー情報を取得します
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 5
+    [email] => hatanorie@gmail.com
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [username] => 波多野莉恵
+    [year] => 1990
+    [tel] => 09090073716
+    [pref] => 神奈川県
+    [addr] => 横浜市旭区鶴ケ峰, 1-40-5
+    [station] => 鶴ヶ峰駅
+    [pic] => 
+    [login_time] => 2019-07-02 00:00:25
+    [delete_flg] => 0
+    [create_date] => 2019-07-02 00:00:25
+    [update_date] => 2019-07-22 16:49:06
+)
+
+[01-Aug-2019 17:23:18 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：セッションID：ip2fh2shq09tdvhfvvqukkpeko
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647798
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647815
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651398
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：ユーザー情報を取得します
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 17:23:35 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 5
+    [email] => hatanorie@gmail.com
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [username] => 波多野莉恵
+    [year] => 1990
+    [tel] => 09090073716
+    [pref] => 神奈川県
+    [addr] => 横浜市旭区鶴ケ峰, 1-40-5
+    [station] => 鶴ヶ峰駅
+    [pic] => 
+    [login_time] => 2019-07-02 00:00:25
+    [delete_flg] => 0
+    [create_date] => 2019-07-02 00:00:25
+    [update_date] => 2019-07-22 16:49:06
+)
+
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：「　退会ページ　「
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：セッションID：bnldlkbomqbvnjg0o11mm5g2qs
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647815
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647817
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651415
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:37 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：セッションID：e7hlmtaajl4r4n76h8o4vpf1jv
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647817
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647819
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651417
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:23:39 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「　ログアウトページ　「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：セッションID：9tl4ruihdjojqsukvlg3pu0fis
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647819
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647826
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651419
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：ログアウトします
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：ログインページへ遷移します
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：セッションID：8n4ut1e2mpv4k102e93l2gsmff
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647826
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 17:23:46 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：「　登録画面　「
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：セッションID：q41rdlkvi23jmj3gb3trmctpl6
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647833
+[01-Aug-2019 17:23:53 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：セッションID：1k2cbn8ho760v3kgoh5ksl53b4
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647854
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 17:24:14 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：「　ログインページ　「
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：セッションID：1oi07lais8lma3io437faeugok
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647869
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：未ログインユーザーです
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 17:24:29 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$cIFF8tgZmT0H2XhQJyGfs.kc7INWtMmlJh433kObYJIlnrP9ljBdK
+    [id] => 5
+)
+
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：ログインしたままにする、にチェックがありません
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：マイページへ遷移します
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：「　マイ案件ページ　「
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：セッションID：p345hvm8pah3u0egufrh280eid
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：現在日時スタンプ：1564647870
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Aug-2019 17:24:30 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：セッションID：8f6p1dvkunrr3733idnb8oobvk
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：現在日時スタンプ：1564648512
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[01-Aug-2019 17:35:12 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：セッションID：0g209bakiecid0cqu95gp0e602
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：現在日時スタンプ：1564648872
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：validEmailDupの中身：testtest@gmail.com
+[01-Aug-2019 17:41:12 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 17:41:14 Asia/Tokyo] デバッグ：クエリに失敗しました
+[01-Aug-2019 17:41:14 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：セッションID：5e64bbpu10keh7afncg4dmmcok
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：現在日時スタンプ：1564668141
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：クエリ成功！
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：validEmailDupの中身：testtest@gmail.com
+[01-Aug-2019 23:02:21 Asia/Tokyo] デバッグ：バリデーションおk
+[01-Aug-2019 23:02:22 Asia/Tokyo] デバッグ：クエリに失敗しました
+[01-Aug-2019 23:02:22 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：セッションID：mjan8rsnllfd4ot9pmmetdtj6h
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：現在日時スタンプ：1564708967
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：クエリ成功！
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：validEmailDupの中身：god@gmail.com
+[02-Aug-2019 10:22:47 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：セッションID：1ih5v0dc7c5lf2hg4t2nqehtp3
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：現在日時スタンプ：1564715488
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 12:11:28 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 33
+[02-Aug-2019 12:11:28 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 57
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：クエリ成功！
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：validEmailDupの中身：god@gmail.com
+[02-Aug-2019 12:11:28 Asia/Tokyo] デバッグ：バリデーションおk
+[02-Aug-2019 12:11:29 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 104
+[02-Aug-2019 12:11:29 Asia/Tokyo] デバッグ：クエリに失敗しました
+[02-Aug-2019 12:11:29 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：セッションID：qars6147u267hi17p0up63fa4j
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：現在日時スタンプ：1564715506
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 12:11:46 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 33
+[02-Aug-2019 12:11:46 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 57
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：クエリ成功！
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：validEmailDupの中身：god@gmail.com
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：バリデーションおk
+[02-Aug-2019 12:11:46 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 104
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：クエリに失敗しました
+[02-Aug-2019 12:11:46 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：セッションID：ijba9ig127tjs72j96nnebq4er
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：現在日時スタンプ：1564715635
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 12:13:55 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 33
+[02-Aug-2019 12:13:55 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 57
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：クエリ成功！
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：validEmailDupの中身：god@gmail.com
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：バリデーションおk
+[02-Aug-2019 12:13:55 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 104
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：クエリに失敗しました
+[02-Aug-2019 12:13:55 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：セッションID：7ge8hvga6cer3m0lps77c01d6m
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：現在日時スタンプ：1564715652
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 12:14:12 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 33
+[02-Aug-2019 12:14:12 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 57
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：クエリ成功！
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：validEmailDupの中身：god@gmail.com
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：バリデーションおk
+[02-Aug-2019 12:14:12 Asia/Tokyo] PHP Notice:  Undefined variable: dress in /Applications/MAMP/htdocs/WEBUhaken/tenpo_signup.php on line 104
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：クエリに失敗しました
+[02-Aug-2019 12:14:12 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：セッションID：f0hjs2170nes8c7r57i717qhs7
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：現在日時スタンプ：1564716671
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:31:11 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Aug-2019 12:33:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:33:11 Asia/Tokyo] デバッグ：「　店舗登録画面　「
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：セッションID：71a5sknqajksbuk2r0hrasbjaa
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1564647870
+    [login_limit] => 3600
+    [user_id] => 5
+)
+
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：現在日時スタンプ：1564716792
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1564651470
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：POST送信があります。
+[02-Aug-2019 12:33:12 Asia/Tokyo] デバッグ：画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -18,6 +18,37 @@
       setTimeout(function(){ $jsShowMsg.slideToggle('slow'); }, 3000 );
     }
 
+    //画像ライブプレビュー
+    var $dropArea = $('.area-drop');
+    var $fileInput = $('input-file');
+    $dropArea.on('click', fanction(e){
+      e.stopPropagation();
+      e.preventDefault();
+      $(this).css('border', '3px #ccc dashed');
+    });
+    $dropArea.on('click', fanction(e){
+      e.stopPropagation();
+      e.preventDefault();
+      $(this).css('border', 'none');
+    });
+    $fileInput.on('change', function(e){
+      $dropArea.css('border','none');
+      var file = this.files[0],           //2.failes配列にファイルが入っています
+      $img = $(this).siblings('.prev-img'),  //3.jQueryのsiblingsメソッドで兄弟のimgを取得
+      fileReader = new FileReader();        //4.ファイルを読み込むFileReaderオブジェクト
+
+      //5.読み込みが完了した際のイベントハンドラ。imgのsrcにデータをセット
+      fileReader.onload = funtion(event){
+        //読み込んだデータをimgに設定
+        img.attr('src', event.target.result).show();
+      };
+
+      //6.画像読み込み
+      fileReader.readAsDataURL(file);
+
+    });
+
+
   });
 </script>
 

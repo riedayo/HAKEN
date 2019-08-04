@@ -304,17 +304,17 @@ function getErrMsg($key){
    return $stmt->fetch(PDO::FETCH_ASSOC);
  }
 
- function getAnken($u_id,$a_id){
+ function getAnken($t_id,$a_id){
    debug('案件情報を取得します');
-   debuf('ユーザーID：'.$u_id);
+   debuf('店舗ID：'.$t_id);
    debug('案件ID：'.$a_id);
 
    //例外処理
    try{
      //DB接続
      $dbh = dbConnect();
-     $sql = 'SELECT * FROM anken WHERE user_id = :u_id AND id = :a_id AND delete_flg = 0';
-     $data = array('u_id' => $u_id, 'a_id' => $a_id);
+     $sql = 'SELECT * FROM anken WHERE tenpo_id = :t_id AND id = :a_id AND delete_flg = 0';
+     $data = array('t_id' => $t_id, 'a_id' => $a_id);
      //クエリ実行
      $stmt = queryPost($dbh,$sql,$data);
 
@@ -425,4 +425,57 @@ function sendMail($from,$to,$subject,$comment){
         $str .=$chars[mt_rand(0, 61)];
    }
    return $str;
+ }
+
+ //画像処理
+ function uploadImg($file, $key){
+   debug('画像アップロード処理開始');
+   debug('FILE情報：'.print_r($file,true));
+
+   if(isset($file['error']) && is_int($file['error'])) {
+     try{
+       //バリデーション
+       //$file['error']の値を確認。配列の中には「UPLOAD_ERR_OK」などの定数が入っている.
+       //「UPLOAD_ERR_OK」などの定数はPHPでファイルアップロードじに自動的に定義される。定数には値として0や１などの数値が入っている。
+       switch($file['error']){
+         case UPLOAD_ERR_OK; //OK
+         break;
+         case UPLOAD_ERR_NO_FILE; //ファイル未選択の場合
+         throw new RuntimeException('ファイルが選択されていません');
+         case UPLOAD_ERR_INI_SIZE; // php.ini定義の最大サイズが超過した場合
+         case UPLOAD_ERR_FORM_SIZE; //フォーム定義の最大サイズが超過した場合
+         throw new RuntimeException('ファイルサイズが大きすぎます');
+         default; //そのほかの場合
+         throw new RuntimeException('そのほかのエラーが発生しました');
+       }
+
+       //file['mine']の値はブラウザ側で偽装可能なので、MINEタイプを自前でチェックする
+       //exif_imgatetype関すは「IMAFETYPE_GIF」「IMAGETYPE_JPEG」などの定義を返す
+       $type = @exif_imagetype($file['tmp_name']);
+       if(!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)){//第三引数にはtrueを設定すると厳密にチェックしてくれるので必ずつける
+         throw new RuntimeException('画像形式が未対応です');
+       }
+
+       //ファイルデータからSHA-1ハッシュをとってファイル名を決定し、ファイルを保存する
+       //ハッシュ化しておかないと、アップロードされたファイル名のままで保存してしまう。すると同じファイル名がアップロードされる可能性があり、DBにパスを保存した場合、どっちの画像パスなのか判断がつかなくなる。
+       //image_type_to_extension関数はファイルの拡張子を取得するもの
+       $path = 'uploads/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+
+       if (!move_upload_file($file['tmp_name'] ,$path)){//ファイルを移動する
+         throw new RuntimeException('ファイル保存時にエラーが発生しました');
+       }
+       //保存したファイルパスのパーミッション（権限）を変更する
+       chmod($path, 0644);
+
+       debug('ファイルは正常にアップロードされました');
+       debug('ファイルパス：'.$path);
+       return $path;
+
+     }catch (RuntimeException $e){
+
+       debug($e->getMessage());
+       global $err_msg;
+       $err_msg[$key] = $e->getMessage();
+     }
+   }
  }

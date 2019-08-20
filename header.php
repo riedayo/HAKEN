@@ -10,6 +10,8 @@
           ?>
           <li><a href="login.php">ログイン</a></li>
           <li><a href="signup.php">新規登録</a></li>
+          <li><a href="tenpo_login.php">店舗ログイン</a></li>
+          <li><a href="tenpo_signup.php">店舗新規登録</a></li>
 
           <?php
         }else{

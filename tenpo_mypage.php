@@ -9,6 +9,34 @@ debugLogStart();
 
 //ログイン認証
 require('auth.php');
+
+$tenpo_id = $_SESSION['tenpo_id'];
+
+//例外処理
+try{
+  //DB接続
+  $dbh = dbConnect();
+  //SQL文作成
+  //編集画面の場合はUPDATE、新規登録画面の場合はINSERT文を作成
+  if($tenpo_id){
+    debug('案件を編集したようです');
+    $sql = 'SELECT * FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.tenpo_id = :id';
+    $data = array(':id' => $tenpo_id);
+  }
+  debug('SQL:'.$sql);
+  debug('流し込みデータ:'.print_r($data,true));
+
+  //クエリ実行
+  $stmt = queryPost($dbh,$sql,$data);
+  //var_dump($stmt->fetch(PDO::FETCH_ASSOC));
+
+  //クエリ成功の場合
+
+}catch (Exception $e){
+  error_log('エラー発生:' . $e->getMessage());
+  $err_msg['common'] = MSG07;
+}
+
  ?>
 
 <?php
@@ -28,7 +56,7 @@ require('head.php');
      </p>
 
     <!-- メインコンテンツ -->
-    <h2>店舗マイページ</h2>
+    <h2>募集した案件一覧</h2>
     <div id="contents" class="site-width">
 
 
@@ -41,98 +69,9 @@ require('head.php');
 
 
       <!-- Main -->
-      <section id="main">
-        <table>
-          <thead>
-            <tr>
-              <th>日付</th>
-              <th>場所</th>
-              <th>店名</th>
-              <th>時給</th>
-              <th>時間</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-          <tbody>
-            <td>2019.5.5(金)</td>
-            <td>恵比寿</td>
-            <td>スピッツ</td>
-            <td>3,500円</td>
-            <td>21:00</td>
-            <td>詳細</td>
-          </tbody>
-
-        </table>
-
-        <div class="pagination">
-                  <ul class="pagination-list">
-                    <li class="list-item"><a href="">&lt;</a></li>
-                    <li class="list-item"><a href="">1</a></li>
-                    <li class="list-item"><a href="">2</a></li>
-                    <li class="list-item active"><a href="">3</a></li>
-                    <li class="list-item"><a href="">4</a></li>
-                    <li class="list-item"><a href="">5</a></li>
-                    <li class="list-item"><a href="">&gt;</a></li>
-                  </ul>
-        </div>
-
-      </section>
+      <?php
+      require('allAnken.php');
+       ?>
 
     </div>
 

@@ -115,7 +115,7 @@ debugLogStart();
                 $_SESSION['login_limit'] = $sesLimit;
 
                 //ユーザーIDを格納(lastInsertIdメソッドは直前でINSERTしたIDをPDOオブジェクトからとって来るメソッド！便利！)
-                $_SESSION['user_id'] = $dbh->lastInsertId();
+                $_SESSION['tenpo_id'] = $dbh->lastInsertId();
 
                 debug('セッション変数の中身：'.print_r($_SESSION,true));
 
@@ -297,17 +297,17 @@ require('head.php');
                   <?php if(!empty($err_msg['station'])) echo $err_msg['station']; ?>
                 </div>
 
-                <label class="<?php if(!empty($err_msg['owner_name'])) echo 'err'; ?>">
+                <label class="<?php if(!empty($err_msg['category'])) echo 'err'; ?>">
                   業種
                   <select name="category">
                     <option  disabled style='display:none; color:#dcdcdc;' <?php if(empty($_POST['category'])) echo 'selected'; ?>>選択してください</option>
-                    <option value="1" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '1' ? 'selected' : ""; ?>>キャバクラ</option>
-                    <option value="2" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '2' ? 'selected' : ""; ?>>クラブ</option>
-                    <option value="3" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '3' ? 'selected' : ""; ?>>スナック</option>
-                    <option value="4" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '4' ? 'selected' : ""; ?>>ガールズバー</option>
-                    <option value="5" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '5' ? 'selected' : ""; ?>>ラウンジ</option>
-                    <option value="6" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '6' ? 'selected' : ""; ?>>熟女キャバクラ</option>
-                    <option value="7" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '7' ? 'selected' : ""; ?>>その他</option>
+                    <option value="キャバクラ" <?php echo !empty($_POST['category']) && $_POST['category'] == 'キャバクラ' ? 'selected' : "";  ?>>キャバクラ</option>
+                    <option value="クラブ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'クラブ' ? 'selected' : ""; ?>>クラブ</option>
+                    <option value="スナック" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'スナック' ? 'selected' : ""; ?>>スナック</option>
+                    <option value="ガールズバー" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'ガールズバー' ? 'selected' : ""; ?>>ガールズバー</option>
+                    <option value="ラウンジ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'ラウンジ' ? 'selected' : ""; ?>>ラウンジ</option>
+                    <option value="熟女キャバクラ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '熟女キャバクラ' ? 'selected' : ""; ?>>熟女キャバクラ</option>
+                    <option value="その他" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'その他' ? 'selected' : ""; ?>>その他</option>
                     </select>
                 </label>
                 <div class="area-msg">
@@ -361,11 +361,11 @@ require('head.php');
 
                 <label class="<?php if(!empty($err_msg['kouseihi'])) echo 'err'; ?>">
                   貸し衣装
-                  <select value="<?php if(!empty($_POST['dress'])) echo $_POST['dress']; ?>" name="dress">
-                  <option  disabled selected style='display:none; color:#dcdcdc; width:80%;'>選択してください</option>
-                  <option value="1">あり（無料）</option>
-                  <option value="2">あり（有料）</option>
-                  <option value="3">なし</option>
+                  <select name="dress">
+                  <option  disabled selected style='display:none; width:80%;' <?php if(empty($_POST['dress'])) echo 'selected'; ?>>選択してください</option>
+                  <option value="あり（無料）" <?php echo array_key_exists('dress', $_POST) && $_POST['dress'] == 'あり（無料）' ? 'selected' : ''; ?>>あり（無料）</option>
+                  <option value="あり（有料）" <?php echo array_key_exists('dress', $_POST) && $_POST['dress'] == 'あり（有料）' ? 'selected' : ''; ?>>あり（有料）</option>
+                  <option value="なし" <?php echo array_key_exists('dress', $_POST) && $_POST['dress'] == '3なし' ? 'selected' : ''; ?>>なし</option>
                    </select>
                 </label>
                 <div class="area-msg">

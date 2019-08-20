@@ -265,7 +265,7 @@ tbody td{
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  border-bottom: 1px solid #f1f1f1;
+
 }
 
 
@@ -313,7 +313,7 @@ tbody td{
   text-align: left;
   width: 70%;
   text-align: center;
-  background-color: #eee;
+  background-color: #f6f5f4;
   padding: 10px 0;
 }
 
@@ -360,6 +360,43 @@ input.en{
   width: 80%;
   display: inline-block;
 }
+
+.anken-form .area-drop{
+  width: 100%;
+  height: 140px;
+  background: #f6f5f4;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 150px;
+  color: #ccc;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.anken-form .prev-img{
+  width: 90%;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.anken-form .input-file{
+  opacity: 0;
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /*必ずz-indexをつけないと登録画面を変更する際にドラッグ&ドロップできなくなる*/
+}
+
+.anken-form .imgDrop-container{
+  width: 33.333%;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
 /*---------------------
 エラーメッセージ
 /*---------------------*/

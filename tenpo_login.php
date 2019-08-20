@@ -77,7 +77,7 @@ if(empty($err_msg)){
         $_SESSION['login_limit'] = $sesLimit;
       }
       //ユーザーIDを格納
-      $_SESSION['user_id'] = $result['id'];
+      $_SESSION['tenpo_id'] = $result['id'];
 
       debug('セッション変数の中身：'.print_r($_SESSION,true));
       debug('マイページへ遷移します');
@@ -148,7 +148,7 @@ debug('画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
             </label>
 
 
-            
+
 
               <div class="big-btn">
                 <input type="submit" name="" value="ログイン">

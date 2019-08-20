@@ -73,6 +73,7 @@ session_regenerate_id();
  define('SUC02','プロフィールを変更しました！');
  define('SUC03','認証コードをメールで送信しました！');
  define('SUC04','新しいパスワードをメールで送信しました！');
+ define('SUC05','案件を登録しました！');
 
 
  //=================================
@@ -192,6 +193,14 @@ function validPass($str,$key){
   //最小文字数チェック
   validMinLen($str,$key);
 }
+
+//selectboxチェック
+function validSelect($str, $key){
+  if(!preg_match("/^[0-9]+$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG15;
+  }
+}
 //エラーメッセージ表示
 function getErrMsg($key){
   global $err_msg;
@@ -231,6 +240,7 @@ function getErrMsg($key){
    //プレースホルダに値をセットし、SQL文を実行
    if(!$stmt->execute($data)){
      debug('クエリに失敗しました');
+     debug('SQLエラー'.print_r($stmt->errorInfo(),true));
      $err_msg['common'] = MSG07;
      return 0;
    }else{
@@ -306,14 +316,14 @@ function getErrMsg($key){
 
  function getAnken($t_id,$a_id){
    debug('案件情報を取得します');
-   debuf('店舗ID：'.$t_id);
+   debug('店舗ID：'.$t_id);
    debug('案件ID：'.$a_id);
 
    //例外処理
    try{
      //DB接続
      $dbh = dbConnect();
-     $sql = 'SELECT * FROM anken WHERE tenpo_id = :t_id AND id = :a_id AND delete_flg = 0';
+     $sql = 'SELECT * FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.tenpo_id = :t_id AND a.id = :a_id AND a.delete_flg = 0 AND t.delete_flg = 0';
      $data = array('t_id' => $t_id, 'a_id' => $a_id);
      //クエリ実行
      $stmt = queryPost($dbh,$sql,$data);
@@ -329,6 +339,31 @@ function getErrMsg($key){
      error_log('エラー発生：'. $e->getMessage());
    }
  }
+
+ function getAnkenOne($a_id){
+  debug('商品情報を取得します。');
+  debug('商品ID：'.$a_id);
+  //例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.id = :id';
+    $data = array(':id' => $a_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを１レコード返却
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+  }
+}
 
  function getCategory(){
   debug('カテゴリー情報を取得します。');
@@ -353,6 +388,7 @@ function getErrMsg($key){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
 
  //==========================
  //メール送信
@@ -427,6 +463,25 @@ function sendMail($from,$to,$subject,$comment){
    return $str;
  }
 
+ //GETパラメータ付与
+ // $del_key : 付与から取り除きたいGETパラメータのキー
+ function appendGetParam($arr_del_key = array()){
+  if(!empty($_GET)){
+    $str = '?';
+    debug('$_GET変数の中身：'.print_r($_GET,true));
+
+    foreach($_GET as $key => $val){
+      debug('$key変数の中身：'.print_r($key,true));
+      debug('$val変数の中身：'.print_r($val,true));
+      if(!in_array($key,$arr_del_key,true)){ //取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成
+        $str .= $key.'='.$val.'&';
+      }
+    }
+    $str = mb_substr($str, 0, -1, "UTF-8");
+    return $str;
+  }
+}
+
  //画像処理
  function uploadImg($file, $key){
    debug('画像アップロード処理開始');
@@ -461,7 +516,7 @@ function sendMail($from,$to,$subject,$comment){
        //image_type_to_extension関数はファイルの拡張子を取得するもの
        $path = 'uploads/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
 
-       if (!move_upload_file($file['tmp_name'] ,$path)){//ファイルを移動する
+       if (!move_uploaded_file($file['tmp_name'] ,$path)){//ファイルを移動する
          throw new RuntimeException('ファイル保存時にエラーが発生しました');
        }
        //保存したファイルパスのパーミッション（権限）を変更する

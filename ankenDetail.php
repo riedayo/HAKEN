@@ -1,4 +1,35 @@
 <?php
+//共通変数・関数ファイルを読み込む
+require('function.php');
+
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debug('「　index　「');
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debugLogStart();
+
+//ログイン認証
+require('auth.php');
+
+//案件idのGETパラメータを取得
+$a_id = $_GET['a_id'];
+//DBから案件データを取得する
+$viewData = getAnkenOne($a_id);
+debug('$viewDataの中身：'.print_r($viewData,true));
+
+if(empty($viewData)){
+  error_log('エラー発生:指定ページに不正な値が入りました');
+  header("Location:index.php"); //トップページへ
+}
+debug('取得したDBデータ：'.print_r($viewData,true));
+
+
+
+
+debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+ ?>
+
+
+<?php
 $siteTitle = '案件詳細';
 require('head.php');
  ?>
@@ -6,7 +37,7 @@ require('head.php');
   <body class="page-login page-1colum">
 
     <!-- メニュー -->
-<?php 
+<?php
 require('header.php');
  ?>
     <!-- メインコンテンツ -->
@@ -24,58 +55,63 @@ require('header.php');
           <table>
             <tr>
               <th>店舗名</th>
-              <td>アルテミス</td>
+              <td><?php echo $viewData['tenpo_name']; ?></td>
             </tr>
             <tr>
               <th>電話番号</th>
-              <td>03-1111-1111</td>
+              <td><?php echo $viewData['tel'];?></td>
             </tr>
             <tr>
               <th>住所</th>
-              <td>東京都渋谷区恵比寿1-1-1 恵比寿ビル２F</td>
+              <td><?php echo $viewData['pref'];?><?php echo $viewData['addr'];?></td>
             </tr>
             <tr>
               <th>最寄駅</th>
-              <td>恵比寿駅</td>
+              <td><?php echo $viewData['station'];?></td>
             </tr>
             <tr>
               <th>時給</th>
-              <td>3500円</td>
+              <td><?php echo $viewData['salary'];?></td>
             </tr>
             <tr>
               <th>業種</th>
-              <td>キャバクラ</td>
+              <td><?php echo $viewData['category'];?></td>
             </tr>
             <tr>
               <th>到着時間</th>
-              <td>勤務時間の30分前</td>
+              <td>勤務時間の<?php echo $viewData['arrival_time'];?>分前</td>
             </tr>
             <tr>
               <th>派遣到着時間（２回目以降）</th>
-              <td>勤務時間の15分前</td>
+              <td>勤務時間の<?php echo $viewData['arrival_time_re'];?>分前</td>
             </tr>
             <tr>
               <th>税金</th>
-              <td>１０％</td>
+              <td><?php echo $viewData['tax'];?></td>
             </tr>
             <tr>
               <th>厚生費</th>
-              <td>1000円</td>
+              <td><?php echo $viewData['kouseihi'];?>円</td>
             </tr>
             <tr>
               <th>貸衣装</th>
-              <td>500円</td>
+              <td><?php echo $viewData['dress'];?>円</td>
             </tr>
             <tr>
               <th>送迎代</th>
-              <td>1000円</td>
+              <td><?php echo $viewData['car'];?>円</td>
             </tr><tr>
               <th>送迎範囲</th>
-              <td>23区</td>
+              <td><?php echo $viewData['car_hani'];?></td>
             </tr>
             <tr>
               <th>注意事項</th>
-              <td>黒ドレスは禁止でお願いします。勤務中のストールはOK</td>
+              <td><?php echo $viewData['comment'];?></td>
+            </tr>
+            <tr>
+              <th>店内写真</th>
+
+              <td><img src="<?php echo $viewData['pic'];?>" alt="" style="width:90%;"></td>
             </tr>
 
           </table>

@@ -26,7 +26,7 @@ if(!empty($_SESSION['login_date'])){
     //さらにbasename関数を使うことでファイル名だけを取り出せる。つまりlogin.phpの場合だけマイページに遷移する
     if(basename($_SERVER['PHP_SELF']) === 'login.php') {
     debug('マイページへ遷移します');
-    header("Location:myAnken.php");//マイページへ
+    header("Location:mypage.php");//マイページへ
   }
   }
 }else{

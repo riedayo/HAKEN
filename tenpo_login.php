@@ -108,7 +108,7 @@ debug('画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 
     <!-- メニュー -->
     <?php
-    require('header.php');
+    require('tenpo_header.php');
      ?>
 
      <p id="js-show-msg" style="display:none;" class="msg-slide">

@@ -3,7 +3,7 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('「　index　「');
+debug('「　ankenDetail　「');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
@@ -12,6 +12,14 @@ require('auth.php');
 
 //案件idのGETパラメータを取得
 $a_id = $_GET['a_id'];
+
+//ユーザー情報を代入
+if(array_key_exists('user_id',$_SESSION)){
+  $user_id = $_SESSION['user_id'];
+}
+
+
+
 //DBから案件データを取得する
 $viewData = getAnkenOne($a_id);
 debug('$viewDataの中身：'.print_r($viewData,true));
@@ -21,6 +29,82 @@ if(empty($viewData)){
   header("Location:index.php"); //トップページへ
 }
 debug('取得したDBデータ：'.print_r($viewData,true));
+
+
+    //例外処理
+    try{
+      //DB接続
+      $dbh = dbConnect();
+      $sql2 = 'SELECT COUNT(anken_id) AS anken_result FROM oubo WHERE anken_id = :anken_id ';
+
+      $data = array(':anken_id'=> $a_id);
+
+
+      //クエリ実行
+      $stmt2 = queryPost($dbh,$sql2,$data);
+    
+      $stmt2 = $stmt2->fetch(PDO::FETCH_ASSOC);
+      
+
+      $anken_result = $stmt2['anken_result'];
+
+//-> fetchColumn() 
+    //COUNTクエリ成功の場合
+      if($anken_result >= $viewData['bosyu']){
+        
+        $finish_flg = true;
+        debug('$finish_flg変数の中身：'.print_r($finish_flg,true));
+
+        }
+
+        }catch(Exception $e){
+        error_log('エラー発生：'. $e->getMessage());
+
+        $err_msg['common'] = MSG07;
+
+    }
+
+
+    if(!empty($_POST)){
+      debug('POST送信があります。');
+
+        //変数に案件情報とユーザー情報を代入
+        $user_id = $_SESSION['user_id'];
+
+
+          //例外処理
+          try{
+            //DB接続
+            $dbh = dbConnect();
+            $sql1 = 'INSERT INTO oubo (anken_id , user_id , create_date) VALUES (:anken_id, :user_id, :create_date )';
+
+            $data = array(':anken_id'=> $a_id, ':user_id' => $user_id, ':create_date' => date('Y-m-d H:i:s'));
+
+
+            //クエリ実行
+            $stmt1 = queryPost($dbh,$sql1,$data);
+
+            //INSERTクエリ成功の場合
+            if($stmt1){
+              
+              $_SESSION['msg_success'] = SUC06;
+              debug('セッション変数の中身：'.print_r($_SESSION,true));
+
+              debug('マイページへ遷移します');
+              header("Location:mypage.php");//マイページへ
+
+              }
+
+
+              }catch(Exception $e){
+              error_log('エラー発生：'. $e->getMessage());
+
+              $err_msg['common'] = MSG07;
+
+          }
+        }
+
+
 
 
 
@@ -52,7 +136,13 @@ require('header.php');
       <!-- Main -->
       <section id="main">
         <div class="anken-detail">
+        <form class="" action="" method="post">
           <table>
+          <tr>
+              <th>日付</th>
+              
+              <td><?php echo date('Y年m月d日', strtotime($viewData['anken_date'])).week($viewData['anken_date']); ?></td>
+            </tr>
             <tr>
               <th>店舗名</th>
               <td><?php echo $viewData['tenpo_name']; ?></td>
@@ -71,11 +161,15 @@ require('header.php');
             </tr>
             <tr>
               <th>時給</th>
-              <td><?php echo $viewData['salary'];?></td>
+              <td><?php echo $viewData['salary'];?>円</td>
             </tr>
             <tr>
               <th>業種</th>
               <td><?php echo $viewData['category'];?></td>
+            </tr>
+            <tr>
+              <th>勤務開始時間</th>
+              <td><?php echo substr($viewData['start_time'],0,5);?>〜ラスト</td>
             </tr>
             <tr>
               <th>到着時間</th>
@@ -115,14 +209,28 @@ require('header.php');
             </tr>
 
           </table>
+
+              <input type="hidden" name="oubo_btn" value="submit">
+
+              <?php if(!empty($_SESSION['user_id']) && empty($finish_flg)){?>
+
+              <div class="big-btn">
+                <input type="submit" name="" value="応募する">
+              </div>
+
+              <?php }else{?>
+
+                <div></div>
+
+              <?php } ?>
+
+          </form>
         </div>
 
       </section>
 
     </div>
-    <div class="big-btn">
-      <input type="submit" name="" value="応募する">
-    </div>
+
 
 
 

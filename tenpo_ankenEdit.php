@@ -23,7 +23,7 @@ $a_id = (!empty($_GET['a_id'])) ? $_GET['a_id'] : '';
 //DBから案件データを取得
 $dbFormData = (!empty($a_id)) ? getAnken($_SESSION['tenpo_id'],$a_id) : '';
 //新規登録画面か編集画面か判別用フラグ
-$edit_flg = (empty($dbFormData)) ? false : true;
+$edit_flg = (empty($dbFormData)) ? false : true; //新規ならfalse編集ならture
 
 // パラメータ改ざんチェック
 //================================
@@ -145,7 +145,7 @@ require('head.php');
 
     <!-- メニュー -->
 <?php
-require('header.php');
+require('tenpo_header.php');
  ?>
     <!-- メインコンテンツ -->
     <h2>お仕事を登録</h2>
@@ -165,7 +165,12 @@ require('header.php');
           <table>
             <tr>
               <th>依頼日 ※必須</th>
-              <td><input type="date" name="anken_date" value="<?php if(!empty($_POST['anken_date'])) echo $_POST['anken_date']; ?>"></td>
+              <td><input type="date" name="anken_date" value="<?php echo getFormData('anken_date') ;  ?>">
+              <div class="area-msg">
+                <?php echo getErrMsg('anken_date'); ?>
+              </div>
+              </td>
+              
             </tr>
             <tr>
               <th>店舗名</th>
@@ -185,11 +190,13 @@ require('header.php');
             </tr>
             <tr>
               <th>時給　※必須</th>
-              <td><input type="text" name="salary" placeholder="3500" value="<?php echo getFormData('salary'); ?>">円</td>
+              <td><input type="text" name="salary" placeholder="3500" value=" <?php echo  getFormData('salary') ;  ?>">円</td>
+             
+              
             </tr>
               <tr>
                 <th>募集人数　※必須</th>
-                <td><input type="text" name="bosyu" placeholder="3" value="<?php if(!empty($_POST['bosyu'])) echo $_POST['bosyu']; ?>">人</td>
+                <td><input type="text" name="bosyu" placeholder="3" value="<?php echo getFormData('bosyu') ;  ?>">人</td>
               </tr>
               <tr>
               <th>業種</th>
@@ -198,15 +205,19 @@ require('header.php');
             <tr>
               <th>勤務開始時間　※必須</th>
               <td>
+
+            
+            <?php debug('start_timeの中身：'.print_r(getFormData('start_time'),true)); ?>
               <select class="time" name="start_time">
-                <option value="" disabled style="display:none;" <?php if(empty($_POST['start_time'])) echo 'selected'; ?>>選択してください</option>
-                <option value="19:00" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '19:00' ? 'selected' : ''; ?>>19:00</option>
-                <option value="19:30" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '19:30' ? 'selected' : ''; ?>>19:30</option>
-                <option value="20:00" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '20:00' ? 'selected' : ''; ?>>20:00</option>
-                <option value="20:30" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '20:30' ? 'selected' : ''; ?>>20:30</option>
-                <option value="21:00" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '21:00' ? 'selected' : ''; ?>>21:00</option>
-                <option value="21:30" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '21:30' ? 'selected' : ''; ?>>21:30</option>
-                <option value="22:00" <?php echo array_key_exists('start_time', $_POST) && $_POST['start_time'] == '22:00' ? 'selected' : ''; ?>>22:00</option>
+                <option value="" disabled style="display:none;" <?php echo getFormData('start_time') ? '' : 'selected' ; ?>>選択してください</option>
+                
+                <option value="19:00" <?php echo getFormData('start_time') == '19:00:00' ? 'selected' : '' ; ?>>19:00</option> 複製！
+                <option value="19:30" <?php echo getFormData('start_time') == '19:30:00' ? 'selected' : '' ; ?>>19:30</option>
+                <option value="20:00" <?php echo getFormData('start_time') == '20:00:00' ? 'selected' : '' ; ?>>20:00</option>
+                <option value="20:30" <?php echo getFormData('start_time') == '20:30:00' ? 'selected' : '' ; ?>>20:30</option>
+                <option value="21:00" <?php echo getFormData('start_time') == '21:00:00' ? 'selected' : '' ; ?>>21:00</option>
+                <option value="21:30" <?php echo getFormData('start_time') == '21:30:00' ? 'selected' : '' ; ?>>21:30</option>
+                <option value="22:00" <?php echo getFormData('start_time') == '22:00:00' ? 'selected' : '' ; ?>>22:00</option>
               </select>
               </td>
             </tr>
@@ -250,11 +261,12 @@ require('header.php');
           <tr>
           <th>店舗写真　※必須</th>
           <td>
-          <div style="overflow:hideen;">
+          
+          <div class="imgDrop-container">
             <label class="area-drop <?php if(!empty($err_msg['pic'])) echo 'err'; ?>>">
             <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
             <input type="file" name="pic" class="input-file">
-            <img src="<?php echo getFormData('pic'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic'))) echo 'display:none;' ?>">
+            <img src="<?php if(!empty(getFormData('pic'))) echo getFormData('pic'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic'))) echo 'display:none;' ?>">
             ドラッグ&ドロップ
           </label>
           
@@ -262,14 +274,24 @@ require('header.php');
           <?php if(!empty($err_msg['pic'])) echo $err_msg['pic']; ?>
           </div>
           </div>
+          
           </td>
           </tr>
 
           </table>
 
+          <?php if($edit_flg){ ?>
+
           <div class="big-btn">
+            <input type="submit" name="" value="更新する">
+          </div>
+
+          <?php }else{ ?>
+            <div class="big-btn">
             <input type="submit" name="" value="登録する">
           </div>
+          <?php } ?>
+
             </form>
         </div>
 

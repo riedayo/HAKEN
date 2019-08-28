@@ -81,7 +81,7 @@ if(empty($err_msg)){
 
       debug('セッション変数の中身：'.print_r($_SESSION,true));
       debug('マイページへ遷移します');
-      header("Location:myAnken.php");//マイページへ
+      header("Location:mypage.php");//マイページへ
     }else{
       debug('パスワードがアンマッチです。');
       $err_msg['common'] = MSG09;

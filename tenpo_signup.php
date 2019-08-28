@@ -152,7 +152,7 @@ require('head.php');
 
     <!-- メニュー -->
     <?php
-    require('header.php');
+    require('tenpo_header.php');
      ?>
     <!-- メインコンテンツ -->
     <div id="contents" class="site-width">

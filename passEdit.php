@@ -90,7 +90,7 @@ ABC;
 
           sendMail($from,$to,$subject,$comment);
 
-          header("Location:myAnken.php");
+          header("Location:mypage.php");
 
       }
 

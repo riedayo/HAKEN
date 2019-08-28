@@ -74,6 +74,7 @@ session_regenerate_id();
  define('SUC03','認証コードをメールで送信しました！');
  define('SUC04','新しいパスワードをメールで送信しました！');
  define('SUC05','案件を登録しました！');
+ define('SUC06','応募が確定しました！お仕事頑張って！');
 
 
  //=================================
@@ -342,13 +343,13 @@ function getErrMsg($key){
 
  function getAnkenOne($a_id){
   debug('商品情報を取得します。');
-  debug('商品ID：'.$a_id);
+  debug('案件ID：'.$a_id);
   //例外処理
   try {
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT * FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.id = :id';
+    $sql = 'SELECT a.id, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.id = :id';
     $data = array(':id' => $a_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -534,3 +535,15 @@ function sendMail($from,$to,$subject,$comment){
      }
    }
  }
+
+//datetimeから曜日を取ってくる関数
+
+function week($anken_date){
+
+	$date = $anken_date;
+	$datetime = new DateTime($date);
+	$weekList = array("日", "月", "火", "水", "木", "金", "土");
+	$w = (int)$datetime->format('w');
+	return '('.$weekList[$w].')';
+
+}

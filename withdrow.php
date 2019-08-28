@@ -98,7 +98,7 @@ require('head.php');
           </form>
 
         </div>
-        <a href="myAnken.php">&lt; マイページに戻る</a>
+        <a href="mypage.php">&lt; マイページに戻る</a>
 
       </section>
 

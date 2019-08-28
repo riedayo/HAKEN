@@ -16,7 +16,10 @@ require('auth.php');
 //================================
 
 //DBからユーザーデータを取得
+if(!empty($_SESSION['user_id'])){
+
 $dbFormData = getUser($_SESSION['user_id']);
+}
 
 debug('取得したユーザー情報：'.print_r($dbFormData,true));
 
@@ -85,7 +88,7 @@ try{
   if($stmt){
     $_SESSION['msg-msg_success'] = SUC02;
     debug('マイページへ遷移します');
-    header("Location:myAnken.php");//マイページへ
+    header("Location:mypage.php");//マイページへ
   }
 
 }catch(Exception $e) {

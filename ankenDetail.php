@@ -35,25 +35,29 @@ debug('取得したDBデータ：'.print_r($viewData,true));
     try{
       //DB接続
       $dbh = dbConnect();
-      $sql2 = 'SELECT COUNT(anken_id) AS anken_result FROM oubo WHERE anken_id = :anken_id ';
+
+      $sql = 'SELECT COUNT(anken_id) AS anken_result FROM oubo WHERE anken_id = :anken_id ';
 
       $data = array(':anken_id'=> $a_id);
 
 
       //クエリ実行
-      $stmt2 = queryPost($dbh,$sql2,$data);
+      $stmt = queryPost($dbh,$sql,$data);
     
-      $stmt2 = $stmt2->fetch(PDO::FETCH_ASSOC);
+      $stmt = $stmt->fetch(PDO::FETCH_ASSOC);
       
 
-      $anken_result = $stmt2['anken_result'];
+      $anken_result = $stmt['anken_result'];
 
-//-> fetchColumn() 
+
     //COUNTクエリ成功の場合
       if($anken_result >= $viewData['bosyu']){
+        debug('$anken_resultの中身：'.print_r($anken_result,true));
+        debug('$viewData[bosyu]の中身：'.print_r($viewData['bosyu'],true));
         
         $finish_flg = true;
-        debug('$finish_flg変数の中身：'.print_r($finish_flg,true));
+        debug('$finish_flg変数の中身：'.print_r($finish_flg,true));     
+
 
         }
 
@@ -63,6 +67,10 @@ debug('取得したDBデータ：'.print_r($viewData,true));
         $err_msg['common'] = MSG07;
 
     }
+
+
+
+
 
 
     if(!empty($_POST)){
@@ -84,6 +92,56 @@ debug('取得したDBデータ：'.print_r($viewData,true));
             //クエリ実行
             $stmt1 = queryPost($dbh,$sql1,$data);
 
+          }catch(Exception $e){
+            error_log('エラー発生：'. $e->getMessage());
+
+            $err_msg['common'] = MSG07;
+
+        }
+
+
+            try{
+              //DB接続
+              $dbh = dbConnect();
+              $sql2 = 'SELECT COUNT(anken_id) AS anken_result FROM oubo WHERE anken_id = :anken_id ';
+        
+              $data = array(':anken_id'=> $a_id);
+        
+        
+              //クエリ実行
+              $stmt2 = queryPost($dbh,$sql2,$data);
+            
+              $stmt2 = $stmt2->fetch(PDO::FETCH_ASSOC);
+              
+        
+              $anken_result = $stmt2['anken_result'];
+        
+        
+            //COUNTクエリ成功の場合
+              if($anken_result >= $viewData['bosyu']){
+                debug('$anken_resultの中身：'.print_r($anken_result,true));
+                debug('$viewData[bosyu]の中身：'.print_r($viewData['bosyu'],true));
+                
+        
+        
+                //締切フラグを立てる！
+                  $dbh = dbConnect();
+        
+                  $sql3 = 'UPDATE anken SET simekiri_flg = 1 WHERE id = :id';
+        
+                  $data = array(':id' => $a_id);
+            
+                  debug('SQL:'.$sql2);
+                  debug('流し込みデータ:'.print_r($data,true));
+                
+                  //クエリ実行
+                  $stmt3 = queryPost($dbh,$sql3,$data);          
+        
+        
+                }
+
+          
+
             //INSERTクエリ成功の場合
             if($stmt1){
               
@@ -103,6 +161,7 @@ debug('取得したDBデータ：'.print_r($viewData,true));
 
           }
         }
+      
 
 
 
@@ -137,7 +196,7 @@ require('header.php');
       <section id="main">
         <div class="anken-detail">
         <form class="" action="" method="post">
-          <table>
+          <table class="anken_detail">
           <tr>
               <th>日付</th>
               

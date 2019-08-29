@@ -53,6 +53,12 @@ try{
  
   debug('応募人数を取得しています。');
 
+  $id_column = array_column($rst,"anken_id");//案件idだけが入ってる
+  $bosyu_column = array_column($rst,"bosyu");//募集人数だけが入ってる
+
+  debug('$id_columnの中身：'.print_r($id_column,true));
+  debug('$bosyu_columnの中身：'.print_r($bosyu_column,true));
+
   foreach ($rst as $key => $val) {
     debug('$val[anken_id]の中身：'.print_r($val['anken_id'],true));
 
@@ -70,12 +76,7 @@ try{
       $stmt2 = $stmt2->fetch(PDO::FETCH_ASSOC);
       debug('$stmt2の中身：'.print_r($stmt2,true));
 
-    }    
-
-
-    
-  
-    
+    }   
   
   // debug('SQL:'.$sql2);
   // debug('流し込みデータ:'.print_r($data,true));

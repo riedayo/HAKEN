@@ -12,14 +12,14 @@ require('auth.php');
 
 $user_id = $_SESSION['user_id'];
 
-//例外処理
+//全案件を取ってくる
 try{
   //DB接続
   $dbh = dbConnect();
   //SQL文作成
   //編集画面の場合はUPDATE、新規登録画面の場合はINSERT文を作成
     debug('全案件をSQLで取得開始します');
-    $sql = 'SELECT a.id, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id  order by a.id desc';
+    $sql = 'SELECT a.id, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id  WHERE simekiri_flg = 0 order by a.id desc';
     $data = array();
 
     // `id`, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, `delete_flg`, `create_date`, `update_date` , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, `login_time`, `delete_flg`, `create_date`, `update_date`
@@ -45,6 +45,8 @@ try{
   error_log('エラー発生:' . $e->getMessage());
   $err_msg['common'] = MSG07;
 }
+
+
 
 
 
@@ -93,6 +95,7 @@ require('head.php');
       </tr>
     </thead>
 
+    <div class="tbody-container">
       <?php
 
       foreach ($rst as $key => $val):
@@ -110,7 +113,7 @@ require('head.php');
       endforeach;
       ?>
 
-
+      </div>
 
   
   </table>
@@ -123,4 +126,4 @@ require('head.php');
     <!-- footer -->
     <?php
     require('footer.php');
-     ?>
+    ?>

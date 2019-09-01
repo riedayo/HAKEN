@@ -59,6 +59,9 @@ try{
   debug('$id_columnの中身：'.print_r($id_column,true));
   debug('$bosyu_columnの中身：'.print_r($bosyu_column,true));
 
+
+  $oubo_kensu = array();
+
   foreach ($rst as $key => $val) {
     debug('$val[anken_id]の中身：'.print_r($val['anken_id'],true));
 
@@ -74,9 +77,32 @@ try{
       $stmt2 = queryPost($dbh,$sql2,$data);
     
       $stmt2 = $stmt2->fetch(PDO::FETCH_ASSOC);
-      debug('$stmt2の中身：'.print_r($stmt2,true));
+      debug('$stmt2の中身：'.print_r($stmt2,true));//レコード数
+
+      if(empty($oubo_kensu)){
+
+        $oubo_kensu = array($val['anken_id'] => $stmt2['anken_result']);
+        debug('$oubo_kensuの中身(1週目)：'.print_r($oubo_kensu,true));//レコード数
+
+      }else{
+        debug('$stmt2[anken_result]の中身(2週目)：'.print_r($stmt2['anken_result'],true));//レコード数
+
+        $oubo_kensu_sub = array($val['anken_id'] => $stmt2['anken_result']);
+    
+        $oubo_kensu = $oubo_kensu + $oubo_kensu_sub;
+        debug('$oubo_kensuの中身(2週目)：'.print_r($oubo_kensu,true));//レコード数
+
+
+      }
+
+
+      
+
 
     }   
+
+    debug('$oubo_kensuの中身：'.print_r($oubo_kensu,true));//レコード数
+
   
   // debug('SQL:'.$sql2);
   // debug('流し込みデータ:'.print_r($data,true));
@@ -155,29 +181,12 @@ require('head.php');
       <td><?php echo date('Y年m月d日', strtotime($val['anken_date'])).' '.week($val['anken_date']);  ?></td>
       <td><?php echo $val['salary']; ?>円</td>
       <td><?php echo substr($val['start_time'],0,5); ?></td>
+      <td><?php echo $oubo_kensu[$val['anken_id']];?></td>
 
-      <?php
-      }
-      ?>
-     <?php
-      foreach ($stmt2 as $key => $val){
-      ?>
-     
-      <td><?php echo $val;?> 人</td>
-
-      <?php
-      }
-      ?>
-
-      <?php
-      foreach ($rst as $key => $val){
-       ?>
-
-      <td><?php $val['bosyu'];?></td>
-
-
+      <td><?php echo $val['bosyu'];?></td>
       <td><a href="tenpo_ankenEdit.php?a_id=<?php echo $val['anken_id']; ?>">編集</a></td>
-
+    
+      
       </tbody>
       <?php
       }

@@ -43,8 +43,10 @@ debug('取得したDBデータ：'.print_r($viewData,true));
 
       //クエリ実行
       $stmt = queryPost($dbh,$sql,$data);
+      debug('$stmtの中身：'.print_r($stmt,true));
     
       $stmt = $stmt->fetch(PDO::FETCH_ASSOC);
+      debug('$stmtの中身：'.print_r($stmt,true));
       
 
       $anken_result = $stmt['anken_result'];
@@ -196,7 +198,7 @@ require('header.php');
       <section id="main">
         <div class="anken-detail">
         <form class="" action="" method="post">
-          <table class="anken_detail">
+          <table >
           <tr>
               <th>日付</th>
               

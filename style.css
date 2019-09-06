@@ -25,17 +25,13 @@ h1,h2,h3,h4,h5,h6,p{
   width: 900px;
   margin: 0 auto;
 }
-#contents{
-  background: ;
-}
+
 #main{
-  background: ;
+  
   min-height: 600px;
   margin-top: 50px;
 }
-.page-2colum{
 
-}
 .page-2colum #main{
   width: 760px;
 
@@ -117,16 +113,56 @@ nav a:hover{
 #sidebar ul{
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 #sidebar ul li{
-  padding-top:10px;
-  padding-bottom: 10px;
+
+  display: block;
+
 
 }
 #sidebar nav a{
-  color: #444;
   font-size: 16px;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  position: relative;
 }
+
+#sidebar nav ul li a:after, #sidebar nav ul li a:before {
+  transition: all .5s;
+}
+
+#sidebar nav ul li a:after, #sidebar nav ul li a:before {
+  transition: all .5s;
+}
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+#sidebar nav ul li a:hover {
+  color: #555;
+}
+
+
+
+
 /*----------------------
 検索サイドバー
 /*----------------------*/
@@ -193,7 +229,7 @@ nav a:hover{
   padding: 0;
   width: 36px;
   height: 36px;
-  background: transparent; // 一旦背景色を付けて、見やすくします
+  background: transparent; 
   color: transparent;
   cursor: pointer;
 }
@@ -337,7 +373,7 @@ td a{
 table input[type=text],table input[type="date"],table select.time{
   width: 70%;
   margin: 0 auto;
-  background: white;
+  
   display: inline-block;
 }
 
@@ -357,9 +393,7 @@ box-shadow: 0 0 10px rgba(0,0,0,.3);
 label{
   display: block;
 }
-input{
 
-}
 
 input[type="text"], input[type="password"], input[type="number"],input[type="date"], .form select, select.time,
 textarea {
@@ -433,7 +467,7 @@ input.en{
   }
 
 
-  }
+  
   .social-container{
     display: flex;
     justify-content: center;
@@ -458,9 +492,7 @@ input.en{
     font-size: 15px;
     margin: 20px 0;
   }
-  .big-btn{
-
-  }
+  
   .big-btn input[type="submit"],.big-btn a{
     margin: 20px auto;
     padding: 0;

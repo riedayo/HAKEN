@@ -21,9 +21,13 @@ require('auth.php');
 $a_id = (!empty($_GET['a_id'])) ? $_GET['a_id'] : '';
 //var_dump($a_id);
 //DBから案件データを取得
-$dbFormData = (!empty($a_id)) ? getAnken($_SESSION['tenpo_id'],$a_id) : '';
+$dbFormData = (!empty($a_id)) ? getAnken($_SESSION['tenpo_id'],$a_id) :'';
+debug('getAnken()の中身：'.print_r(getAnken($_SESSION['tenpo_id'],$a_id),true));
+debug('$dbFormDataの中身：'.print_r($dbFormData,true));
+
 //新規登録画面か編集画面か判別用フラグ
 $edit_flg = (empty($dbFormData)) ? false : true; //新規ならfalse編集ならture
+debug('$edit_flgの中身：'.print_r($edit_flg,true));
 
 // パラメータ改ざんチェック
 //================================
@@ -165,7 +169,7 @@ require('tenpo_header.php');
           <table>
             <tr>
               <th>依頼日 ※必須</th>
-              <td><input type="date" name="anken_date" value="<?php echo getFormData('anken_date') ;  ?>">
+              <td><input type="date" name="anken_date" value="<?php echo getFormData('anken_date'); ?>">
               <div class="area-msg">
                 <?php echo getErrMsg('anken_date'); ?>
               </div>
@@ -190,9 +194,9 @@ require('tenpo_header.php');
             </tr>
             <tr>
               <th>時給　※必須</th>
-              <td><input type="text" name="salary" placeholder="3500" value=" <?php echo  getFormData('salary') ;  ?>">円</td>
+              <td><input type="text" name="salary" placeholder="3500" value="<?php echo getFormData('salary'); ?>">円</td>
              
-              
+               
             </tr>
               <tr>
                 <th>募集人数　※必須</th>

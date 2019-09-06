@@ -349,7 +349,8 @@ function getErrMsg($key){
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT a.id, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id WHERE a.id = :id';
+    $sql = 'SELECT a.id, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date , category_name FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id LEFT JOIN category AS c ON t.category = c.id WHERE a.id = :id';
+
     $data = array(':id' => $a_id);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -416,34 +417,83 @@ function sendMail($from,$to,$subject,$comment){
 //その他
 //==========================
 
- //フォーム入力保持
- function getFormData($str){
-   global $dbFormData;
-   //ユーザーデータがDBにある場合
-   if(!empty($dbFormData)){
-     //ユーザーデータがDBにあり、かつフォームのエラーがある場合
-     if(!empty($err_msg[$str])){
-       //POSTされている場合(フォームにエラーがあるならPOSTされてて当然だが)
-       if(isset($_POST[$str])){
-         return $_POST[$str];
-       }else{
-         //POSTされていない場合（エラーがあるならポストされていて当然なのであり得ないが）
-         return $dbFormData[$str];
-       }
-     }else{
-       //POSTされていてDBの情報と違う場合(フォームが変更されていてエラーは無し。けど他でエラーがあり引っかかってるとき)
-       if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
-         return $_POST[$str];
-       }else{//そもそも変更していない時
-         return $dbFormData[$str];
-       }
-     }
-   }else{//DBにユーザーデータがまるっきりない場合
-     if(isset($_POST[$str])){
-       return $_POST[$str];
-     }
-   }
- }
+//  //フォーム入力保持
+//  function getFormData($str){
+//    global $dbFormData;
+//    //ユーザーデータがDBにある場合
+//    if(isset($dbFormData)){
+//      //ユーザーデータがDBにあり、かつフォームのエラーがある場合
+//      if(!empty($err_msg[$str])){
+//        //POSTされている場合(フォームにエラーがあるならPOSTされてて当然だが)
+//        if(isset($_POST[$str])){
+//          return $_POST[$str];
+//        }else{
+//          //POSTされていない場合（エラーがあるならポストされていて当然なのであり得ないが）
+//          return $dbFormData[$str];
+//        }
+//      }else{
+//        //POSTされていてDBの情報と違う場合(フォームが変更されていてエラーは無し。けど他でエラーがあり引っかかってるとき)
+//        if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
+//          return $_POST[$str];
+//        }else{//そもそも変更していない時
+//          return $dbFormData[$str];
+//        }
+//      }
+//    }else{//DBにユーザーデータがまるっきりない場合
+//      if(isset($_POST[$str])){
+//        return $_POST[$str];
+//      }
+//    }
+//  }
+
+// サニタイズ
+function sanitize($str){
+  return htmlspecialchars($str,ENT_QUOTES);
+}
+// フォーム入力保持
+function getFormData($str, $flg = false){
+  if($flg){
+    $method = $_GET;
+  }else{
+    $method = $_POST;
+  }
+  global $dbFormData;
+  debug(strlen($dbFormData));
+
+  // ユーザーデータがある場合
+  if(!empty($dbFormData)){
+    //フォームのエラーがある場合
+    debug('############ if(!empty($dbFormData)) ############');
+    if(!empty($err_msg[$str])){
+      debug('############ if(!empty($err_msg[$str])) ############');
+      //POSTにデータがある場合
+      if(isset($method[$str])){
+        return sanitize($method[$str]);
+      }else{
+        //ない場合（基本ありえない）はDBの情報を表示
+        return sanitize($dbFormData[$str]);
+      }
+    }else{
+      //POSTにデータがあり、DBの情報と違う場合
+      debug('############ isset($method[$str]) && $method[$str] !== $dbFormData[$str] ############');
+      if(isset($method[$str]) && $method[$str] !== $dbFormData[$str]){
+        return sanitize($method[$str]);
+      }else{
+        debug('############ return sanitize($dbFormData[$str] ############');
+        return sanitize($dbFormData[$str]);
+      }
+    }
+  }else{
+    debug('############ if(!$method[$str]) ############');
+    if(isset($method[$str])){
+      debug('############ isset(method[$str]) is true ############');
+      return sanitize($method[$str]);
+    }
+  }
+}
+
+
+
 
  //sessionを１回だけ取得する関数。（「変更しました！」とかのメッセージはマイページ表示した時１回だけ表示させればいいものだから、１回使ったキーを自動で削除してくれるようにしたい。）
  function getSessionFlash($key){

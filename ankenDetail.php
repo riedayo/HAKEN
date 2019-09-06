@@ -226,7 +226,7 @@ require('header.php');
             </tr>
             <tr>
               <th>業種</th>
-              <td><?php echo $viewData['category'];?></td>
+              <td><?php echo $viewData['category_name'];?></td>
             </tr>
             <tr>
               <th>勤務開始時間</th>

@@ -301,13 +301,13 @@ require('head.php');
                   業種
                   <select name="category">
                     <option  disabled style='display:none; color:#dcdcdc;' <?php if(empty($_POST['category'])) echo 'selected'; ?>>選択してください</option>
-                    <option value="キャバクラ" <?php echo !empty($_POST['category']) && $_POST['category'] == 'キャバクラ' ? 'selected' : "";  ?>>キャバクラ</option>
-                    <option value="クラブ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'クラブ' ? 'selected' : ""; ?>>クラブ</option>
-                    <option value="スナック" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'スナック' ? 'selected' : ""; ?>>スナック</option>
-                    <option value="ガールズバー" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'ガールズバー' ? 'selected' : ""; ?>>ガールズバー</option>
-                    <option value="ラウンジ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'ラウンジ' ? 'selected' : ""; ?>>ラウンジ</option>
-                    <option value="熟女キャバクラ" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '熟女キャバクラ' ? 'selected' : ""; ?>>熟女キャバクラ</option>
-                    <option value="その他" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == 'その他' ? 'selected' : ""; ?>>その他</option>
+                    <option value="1" <?php echo !empty($_POST['category']) && $_POST['category'] == '1' ? 'selected' : "";  ?>>キャバクラ</option>
+                    <option value="2" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '2' ? 'selected' : ""; ?>>クラブ</option>
+                    <option value="3" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '3' ? 'selected' : ""; ?>>スナック</option>
+                    <option value="4" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '4' ? 'selected' : ""; ?>>ガールズバー</option>
+                    <option value="5" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '5' ? 'selected' : ""; ?>>ラウンジ</option>
+                    <option value="6" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '6' ? 'selected' : ""; ?>>熟女キャバクラ</option>
+                    <option value="7" <?php echo array_key_exists('category', $_POST) && $_POST['category'] == '7' ? 'selected' : ""; ?>>その他</option>
                     </select>
                 </label>
                 <div class="area-msg">

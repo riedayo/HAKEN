@@ -1,5 +1,5 @@
 <section id="sidebar">
-  <nav>
+  <nav class="stroke">
     <ul>
       <li><a href="mypage.php">募集中のお仕事</a></li>
       <li><a href="oubo.php">応募済のお仕事</a></li>

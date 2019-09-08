@@ -367,14 +367,55 @@ function getErrMsg($key){
   }
 }
 
- function getCategory(){
+ 
+
+
+
+function getAnkenList($category, $sort){
+  debug('商品情報を取得します。');
+  //例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // 件数用のSQL文作成
+    $sql = 'SELECT a.id  , `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date ,   `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken AS a LEFT JOIN tenpo AS t ON a.tenpo_id = t.id';
+    if(!empty($category)) $sql .= ' WHERE category = '.$category;
+    if(!empty($sort)){
+      switch($sort){
+        case 1:
+          $sql .= ' ORDER BY salary ASC';
+          break;
+        case 2:
+          $sql .= ' ORDER BY salary DESC';
+          break;
+      }
+    }
+    $data = array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを全レコードを格納
+      $rst['data'] = $stmt->fetchAll();
+      return $rst;
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+  }
+}
+
+
+function getCategory(){
   debug('カテゴリー情報を取得します。');
   //例外処理
   try {
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT category FROM tenpo';
+    $sql = 'SELECT * FROM category';
     $data = array();
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -458,7 +499,7 @@ function getFormData($str, $flg = false){
     $method = $_POST;
   }
   global $dbFormData;
-  debug(strlen($dbFormData));
+  //debug(strlen($dbFormData));
 
   // ユーザーデータがある場合
   if(!empty($dbFormData)){
@@ -480,7 +521,7 @@ function getFormData($str, $flg = false){
         return sanitize($method[$str]);
       }else{
         debug('############ return sanitize($dbFormData[$str] ############');
-        return sanitize($dbFormData[$str]);
+        return sanitize($dbFormData[$str]);//新規案件作成したい時にここに分岐されるのはおかしいですよね？？
       }
     }
   }else{

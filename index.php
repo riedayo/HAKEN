@@ -7,38 +7,57 @@ debug('「　index　「');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
+//GETパラメータを取得
+$category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
+debug('$categoryの中身:'.print_r($category,true));
 
-//例外処理
-try{
-  //DB接続
-  $dbh = dbConnect();
-  //SQL文作成
-  //編集画面の場合はUPDATE、新規登録画面の場合はINSERT文を作成
-    debug('全案件をSQLで取得開始します');
-    $sql = 'SELECT a.id  , `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date ,   `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id order by a.id desc';
-    $data = array();
-
-    // `id`, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, `delete_flg`, `create_date`, `update_date` , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, `login_time`, `delete_flg`, `create_date`, `update_date`
-
-  debug('SQL:'.$sql);
-  debug('流し込みデータ:'.print_r($data,true));
+//ソート順
+$sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
+debug('$sortの中身:'.print_r($sort,true));
 
 
-  //クエリ実行
-  $stmt = queryPost($dbh,$sql,$data);
+//DBから商品データを取得
+$dbAnkenData = getAnkenList($category, $sort);
+debug('$dbAnkenDataの中身:'.print_r($dbAnkenData,true));
+
+//DBからカテゴリーデータを取得
+$dbCategoryData = getCategory();
+debug('$dbCategoryDataの中身:'.print_r($dbCategoryData,true));
+
+
+debug('画面表示終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+
+// //例外処理
+// try{
+//   //DB接続
+//   $dbh = dbConnect();
+//   //SQL文作成
+//   //編集画面の場合はUPDATE、新規登録画面の場合はINSERT文を作成
+//     debug('全案件をSQLで取得開始します');
+//     $sql = 'SELECT a.id  , `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, a.delete_flg, a.create_date, a.update_date ,   `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, t.login_time, t.delete_flg, t.create_date, t.update_date FROM anken as a LEFT JOIN tenpo as t ON a.tenpo_id = t.id order by a.id desc';
+//     $data = array();
+
+//     // `id`, `anken_date`, `salary`, `bosyu`, `start_time`, `comment`, `pic`, `tenpo_id`, `delete_flg`, `create_date`, `update_date` , `email`, `pass`, `tenpo_name`, `owner_name`, `tel`, `pref`, `addr`, `station`, `category`, `hair`, `arrival_time`, `arrival_time_re`, `tax`, `kouseihi`, `dress`, `car`, `car_hani`, `syorui`, `login_time`, `delete_flg`, `create_date`, `update_date`
+
+//   debug('SQL:'.$sql);
+//   debug('流し込みデータ:'.print_r($data,true));
+
+
+//   //クエリ実行
+//   $stmt = queryPost($dbh,$sql,$data);
   
-  debug('$stmtの中身：'.print_r($stmt->fetch(PDO::FETCH_ASSOC),true));
+//   debug('$stmtの中身：'.print_r($stmt->fetch(PDO::FETCH_ASSOC),true));
  
-  //var_dump($stmt->fetch(PDO::FETCH_ASSOC));
-  $rst = $stmt->fetchAll();
-  //var_dump($rst,true);
+//   //var_dump($stmt->fetch(PDO::FETCH_ASSOC));
+//   $rst = $stmt->fetchAll();
+//   //var_dump($rst,true);
 
-  //クエリ成功の場合
+//   //クエリ成功の場合
 
-}catch (Exception $e){
-  error_log('エラー発生:' . $e->getMessage());
-  $err_msg['common'] = MSG07;
-}
+// }catch (Exception $e){
+//   error_log('エラー発生:' . $e->getMessage());
+//   $err_msg['common'] = MSG07;
+// }
 
  ?>
 
@@ -84,7 +103,7 @@ require('head.php');
 
       <?php
 
-      foreach ($rst as $key => $val):
+      foreach ($dbAnkenData['data'] as $key => $val):
        ?>
     <tbody>
       <td><?php echo date('Y年m月d日', strtotime($val['anken_date'])).week($val['anken_date']);  ?></td>
